@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Curso Práctico de Maquetación y Animaciones con CSS</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script type="module" src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="page-marvel">
+      <!-- Main Content -->
+      <section class="container-marvel">
+        <nav class="navbar-marvel">
+          <div class="navbar__content-marvel">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/marvel.svg"
+              alt="marvel-logo"
+            />
+            <ul>
+              <li><a href="">EXCLUSIVOS</a></li>
+              <li><a href="">NUEVOS</a></li>
+              <li><a href="">GIF CARDS</a></li>
+              <li><a href="">FIND A STORE</a></li>
+            </ul>
+          </div>
+        </nav>
+        <section class="main-content-marvel">
+          <p>Diseña tu</p>
+          <h1>Vengador</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            officia error molestias eius quos corporis distinctio ratione fuga.
+            Est laborum excepturi ipsam saepe eaque earum incidunt, sunt a.
+            Exercitationem, ratione. Explicabo repellendus dolor quidem
+            perspiciatis fuga adipisci at porro quam, repudiandae unde tempora
+            dolorum iusto ratione voluptatem dolores harum quis ducimus aperiam
+            tenetur facilis quas totam officia vel et? Eum.
+          </p>
+        </section>
+        <section class="side-content-marvel">
+          <div></div>
+          <p>Iron Man</p>
+          <img
+            src="https://www.nicepng.com/png/full/3-32909_iron-man-png-svg-ironman-infinity-war-png.png"
+            alt="ironman"
+          />
+        </section>
+        <section class="footer-marvel">
+          <div id="hulk">
+            <img
+              src="https://robnei.blog/wp-content/uploads/2020/07/hulk-caricatura02.png"
+              alt="hulk"
+            />
+          </div>
+          <div id="blackWidow">
+            <img
+              src="https://i.pinimg.com/originals/3a/bd/e9/3abde96a88d1b6b8073364a876872524.png"
+              alt="black"
+            />
+          </div>
+          <div id="thor">
+            <img
+              src="https://i.pinimg.com/originals/65/40/71/654071e5502410df60a8ab0c317d3a5b.png"
+              alt="thor"
+            />
+          </div>
+        </section>
+      </section>
+      <!-- Loader -->
+      <section class="loader-marvel">
+        <div></div>
+        <div></div>
+        <div></div>
+      </section>
+      <!-- Modal -->
+      <section class="modal__hulkContainer hidden">
+        <div class="modal__hulk">
+          <svg
+            class="modal__hulk--close"
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="50"
+            height="50"
+            viewBox="0 0 48 48"
+          >
+            <path
+              fill="#F44336"
+              d="M21.5 4.5H26.501V43.5H21.5z"
+              transform="rotate(45.001 24 24)"
+            ></path>
+            <path
+              fill="#F44336"
+              d="M21.5 4.5H26.5V43.501H21.5z"
+              transform="rotate(135.008 24 24)"
+            ></path>
+          </svg>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  src="https://i.pinimg.com/originals/ec/a5/57/eca55730d9a8cb9b11f8d00ccf46c707.jpg"
+                  alt="hulk"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://i.pinimg.com/736x/57/bb/bd/57bbbdcde92c68b1fe74a4b2a7ab47a8.jpg"
+                  alt="hulk"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://dcdn.mitiendanube.com/stores/001/736/657/products/hulk-bb-65x98-e51-c85205999d72fe3ab616524457925844-640-0.jpg"
+                  alt="hulk"
+                />
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+      <section class="modal__blackWidowContainer hidden">
+        <div class="modal__blackWidow">
+          <svg
+            class="modal__blackWidow--close"
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="100"
+            height="100"
+            viewBox="0 0 48 48"
+          >
+            <path
+              fill="#F44336"
+              d="M21.5 4.5H26.501V43.5H21.5z"
+              transform="rotate(45.001 24 24)"
+            ></path>
+            <path
+              fill="#F44336"
+              d="M21.5 4.5H26.5V43.501H21.5z"
+              transform="rotate(135.008 24 24)"
+            ></path>
+          </svg>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  src="https://i.pinimg.com/736x/d0/83/be/d083be197f7db1a9866349ac2982db60.jpg"
+                  alt="blackWidow"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://i.pinimg.com/originals/f3/5c/cf/f35ccf22237dc22b8eccdfddfef76610.png"
+                  alt="blackWidow"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt3eJGE4TGs4-q37ZNfOD-9_nzrJccJ773ykHzFNNT5uQ4NqIpsabhhlnD8aF6uAFn8qo&usqp=CAU"
+                  alt="blackWidow"
+                />
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+      <section class="modal__thorContainer hidden">
+        <div class="modal__thor">
+          <svg
+            class="modal__thor--close"
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="100"
+            height="100"
+            viewBox="0 0 48 48"
+          >
+            <path
+              fill="#F44336"
+              d="M21.5 4.5H26.501V43.5H21.5z"
+              transform="rotate(45.001 24 24)"
+            ></path>
+            <path
+              fill="#F44336"
+              d="M21.5 4.5H26.5V43.501H21.5z"
+              transform="rotate(135.008 24 24)"
+            ></path>
+          </svg>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  src="https://i.pinimg.com/236x/ab/43/1f/ab431f6c8843fcba203f5e2654f67b45.jpg"
+                  alt="thor"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://i.pinimg.com/236x/35/d7/95/35d795e92f4401dd1a47e7ee78a5c5c8.jpg"
+                  alt="thor"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo9AZXulvbJCvDLB6Gz4AmkHfhTtLuFvNWFiVEPH0Fom4WLFTMTLy3bPWWSdTHzizuOIE&usqp=CAU"
+                  alt="thor"
+                />
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
